@@ -1,0 +1,629 @@
+@media screen and (min-width: 1550px) {
+    .inner-bottom-stores .stores-map {
+        padding-bottom: 36.25%;
+    }
+
+    .main-lookbook .images .lookbook-text {
+        padding-right: 50%;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .main-lookbook .images .lookbook-text {
+        padding-right: 40%;
+    }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 1070px) {
+    .inner-bottom-stores .stores-map {
+        padding-bottom: 72.25%;
+    }
+}
+
+@media screen and (max-width: 1070px) and (min-width: 768px) {
+    .inner-bottom-stores .stores-map {
+        padding-bottom: 76.25%;
+    }
+}
+
+@media screen and (max-width: 1780px) and (min-width: 992px) {
+
+    #lookbook .images .lookbook-text h3 {
+        margin-top: 6%;
+        padding-right: 4%;
+        font-family: 'Montserrat',
+            sans-serif;
+        font-weight: bold;
+        color: #575153;
+        font-size: 4.8rem;
+        text-transform: uppercase;
+    }
+
+    #lookbook .images .lookbook-text h3 span {
+        display: block;
+        font-family: 'Montserrat',
+            sans-serif;
+        font-weight: lighter;
+        color: #575153;
+        font-size: 4.8rem;
+    }
+
+    #lookbook .images .lookbook-text p {
+        margin-top: 6%;
+        padding-right: 4%;
+        max-width: calc(300px + 4%);
+        margin-left: auto;
+        font-family: 'Roboto',
+            sans-serif;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.4;
+        color: #727272;
+    }
+
+    #lookbook .images .lookbook-text a {
+        margin-top: 6%;
+        display: block;
+        width: 180px;
+        margin-left: auto;
+        margin-right: 4%;
+        border: 2px solid #737373;
+        color: #737373;
+        line-height: 1;
+        padding: 1rem 0;
+        text-align: center;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+}
+
+@media screen and (max-width: 1500px) and (min-width: 992px) {
+    #lookbook .images .lookbook-text h3 {
+        margin-top: 4%;
+    }
+
+    #lookbook .images .lookbook-text p {
+        margin-top: 4%;
+    }
+
+    #lookbook .images .lookbook-text a {
+        margin-top: 4%;
+        margin-right: 4%;
+        padding: .8rem 0;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1160px) and (min-width: 992px) {
+    #lookbook .images .lookbook-text h3 {
+        font-size: 3.8rem;
+    }
+
+    #lookbook .images .lookbook-text h3 span {
+        font-size: 3.8rem;
+    }
+
+    .main-lookbook .images .lookbook-text h3 {
+        font-size: 3.8rem;
+        color: #575153;
+    }
+
+    .main-lookbook .images .lookbook-text p {
+        font-size: 1.2rem;
+    }
+
+    .main-lookbook .images .lookbook-text a {
+        width: 15rem;
+        font-size: 1.3rem;
+        list-style: .3rem;
+        padding: 1.5rem 3.4rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    html {
+        font-size: 54.5%;
+    }
+
+    /*    lookbook pages */
+    .main-lookbook .images .lookbook-text h3 {
+        font-size: 3.8rem;
+        color: #575153;
+    }
+
+    .main-lookbook .images .lookbook-text p {
+        font-size: 1.2rem;
+    }
+
+    .main-lookbook .images .lookbook-text a {
+        width: 15rem;
+        font-size: 1.3rem;
+        list-style: .3rem;
+        padding: 1.5rem 3.4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 50.5%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    html {
+        font-size: 44.5%;
+    }
+}
+
+/* MIN WIDTH */
+@media screen and (min-width:992px) {
+
+    /*    HEADER NAV-MENU   */
+    #header .nav-item:nth-child(1) .dropdown {
+        left: 30px;
+    }
+
+    #header .nav-item:nth-child(2) .dropdown {
+        left: 30px;
+    }
+
+    #header .nav-item:nth-child(4) .dropdown {
+        right: 30px;
+    }
+
+    #header .nav-item:nth-child(5) .dropdown {
+        right: 30px;
+    }
+
+    /*    fasion  */
+    #fasion .fasion-images .right-side-images .images .text-info,
+    #fasion .fasion-images .left-side-images .images .text-info {
+        bottom: -169px;
+    }
+}
+
+/* MAX WIDTH */
+@media screen and (max-width:992px) {
+
+    /*    HEADER NAV-MENU   */
+    #header .nav-item a {
+        position: relative;
+    }
+
+    #header .nav-item a .dropdown {
+        position: relative;
+        top: 0;
+        left: 30px;
+    }
+
+    #header .nav-item:nth-child(4) a .dropdown {
+        top: 0;
+        left: 30px;
+    }
+
+    #header .nav-item:nth-child(5) a .dropdown {
+        top: 0;
+        left: 30px;
+    }
+
+    #header .navbar-collapse {
+        position: absolute;
+        top: 0;
+        left: -15px;
+        min-width: 40%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #000;
+        padding-left: 15px;
+        height: 100vh;
+    }
+
+    .ms-auto {
+        margin-left: 0 !important;
+    }
+
+    #header .navbar-nav {
+        padding-top: .9rem;
+        margin-right: 0%;
+        height: auto;
+        margin-bottom: 209px;
+    }
+
+    #header .navbar-nav li a {
+        padding: 10px 0;
+        color: #fff;
+    }
+
+    #header .navbar-nav li a span {
+        margin-top: 0;
+        margin-left: 22px;
+        display: inline-block;
+        color: #fff;
+    }
+
+    #header .nav-item .dropdown {
+        position: relative;
+        top: -23px;
+        padding: 0;
+        /* left: 10%; */
+        height: 0rem;
+
+        /* width: 30rem; */
+        max-width: 181px;
+        -ms-grid-columns: auto;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        overflow-y: auto;
+        margin: 0 auto;
+    }
+
+    #header .nav-item:hover .dropdown {
+        height: 20.5rem;
+        opacity: 1;
+        top: 0;
+        visibility: visible;
+        padding: 1rem;
+    }
+
+    #header .dropdown ul h6 {
+        font-size: 1.5rem;
+        margin-bottom: 1.3rem;
+    }
+
+    #header .dropdown ul li a {
+        padding: .35rem 0;
+    }
+
+    #header .dropdown .img {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1 / span 1;
+    }
+
+    #header .search-form {
+        width: 50%;
+        position: relative;
+        margin-bottom: 100%;
+    }
+
+    #header .search-form input {
+        color: #fff;
+    }
+
+    #header .search-form input:focus {
+        border-color: #fff;
+        -webkit-box-shadow: 7px 7px 25px 0.25rem #bedfff, -7px -7px 25px 0.25rem #bedfff;
+        box-shadow: 7px 7px 25px 0.25rem #bedfff, -7px -7px 25px 0.25rem #bedfff;
+    }
+
+    #header button.men-collection {
+        width: 299px;
+        margin-top: 34%;
+        padding: 13px 0;
+        letter-spacing: 3px;
+    }
+
+
+    /*   FASION AREA   */
+    #fasion ul.fasion-menu li a {
+        padding: 4rem 0;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info h6,
+    #fasion .fasion-images .left-side-images .images .text-info h6 {
+        margin: 1.7rem auto;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info p.price-info,
+    #fasion .fasion-images .left-side-images .images .text-info p.price-info {
+        margin: 1.7rem auto;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info,
+    #fasion .fasion-images .left-side-images .images .text-info {
+        bottom: -169px;
+    }
+
+    #fasion .fasion-images .right-side-images .img1 .text-info,
+    #fasion .fasion-images .left-side-images .img3 .text-info {
+        bottom: -143px;
+    }
+
+    /*    LOOKBOOK AREA    */
+    #lookbook {
+        width: 100%;
+        padding-bottom: 8rem;
+    }
+
+    #lookbook .images {
+        position: relative;
+        background: #f8f8f8;
+        margin-bottom: 30px;
+    }
+
+    #lookbook .images:nth-child(3) {
+        margin-bottom: 0;
+    }
+}
+
+/* MIN WIDTH */
+@media screen and (min-width:768px) {
+
+    /*  top-nav ==  offcanvas  */
+    .btn {
+        display: none;
+    }
+}
+
+/* MAX WIDTH */
+@media screen and (max-width:768px) {
+
+    /*  top-nav ==  top-navbar  */
+    #top-nav {
+        height: 45px;
+    }
+
+    .inner-top-navbar {
+        display: none;
+    }
+
+    /*  top-nav ==  offcanvas  */
+    .offcanvas-end {
+        background: #00c8c8;
+    }
+
+    .offcanvas-end {
+        width: 100%;
+    }
+
+    .offcanvas-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 0;
+        height: 45px;
+    }
+
+    .btn-times {
+        margin-left: auto;
+        margin-right: 25px;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+
+    .btn-times i.fa-solid.fa-xmark {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .btn-times:focus {
+        border: none;
+        outline: none;
+    }
+
+    .btn {
+        display: inline-block;
+        outline: none;
+        -webkit-box-shadow: 0px;
+        box-shadow: 0px;
+    }
+
+    .btn-check:focus + .btn,
+    .btn:focus {
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .0);
+        box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .0);
+    }
+
+    i.fa-solid.fa-bars {
+        font-size: 30px;
+        color: #00c8c8;
+        padding-top: 5px;
+    }
+
+    .offcanvas-body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        background: #333333;
+    }
+
+    .offcanvas-body > * {
+        margin-bottom: 15%;
+    }
+
+    .currency-select {
+        height: 65px;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+        border: 2px solid #00c8c8;
+        border-radius: 50px;
+    }
+
+    .empty-select {
+        height: 65px;
+        width: 100%;
+        border: 2px solid #00c8c8;
+        border-radius: 50px;
+    }
+
+    .empty-select select,
+    .currency-select select {
+        width: 40%;
+    }
+
+    #top-nav .nav {
+        height: 65px;
+        width: 100%;
+    }
+
+    #top-nav .nav a {
+        width: 49%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 27px;
+        border-radius: 50px;
+        border: 2px solid #00c8c8;
+    }
+
+    /*    HEADER   */
+    #header button.men-collection {
+        width: 249px;
+        padding: 12px 0;
+        letter-spacing: 2px;
+    }
+
+    /*  FASION AREA  */
+    #fasion ul.fasion-menu li a {
+        padding: 1.4rem 0;
+    }
+
+    #fasion ul.fasion-menu li + li {
+        padding-left: 0;
+    }
+
+    #fasion .fasion-images {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+
+    #fasion .fasion-images .left-side-images .img1 {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    #fasion .fasion-images .left-side-images .img2 {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    #fasion .fasion-images .left-side-images .img3 {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    #fasion ul.fasion-menu li a {
+        padding: 3rem 0;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info h6,
+    #fasion .fasion-images .left-side-images .images .text-info h6 {
+        margin: 1.3rem auto;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info p.price-info,
+    #fasion .fasion-images .left-side-images .images .text-info p.price-info {
+        margin: 1.3rem auto;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info,
+    #fasion .fasion-images .left-side-images .images .text-info {
+        bottom: -116px;
+    }
+
+    #fasion .fasion-images .right-side-images .img1 .text-info,
+    #fasion .fasion-images .left-side-images .img3 .text-info {
+        bottom: -117px;
+    }
+
+    /*   LOOKBOOK PAGE   */
+    .main-lookbook .images .hover-icon ul li a i {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    .main-lookbook .images img.logo-2 {
+        max-width: 100%;
+        height: 306px;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+    }
+
+    /*   PRODUCT-VIEW   */
+    .product-view .horizontal-tab .nav {
+        display: block;
+    }
+
+    .product-view .horizontal-tab .nav-tabs .nav-link {
+        width: 100%;
+        text-align: left;
+    }
+
+    .img-btn .logo-img-text h3 {
+        font-size: 3.8rem;
+    }
+
+    .img-btn .logo-img-text h4 {
+        font-size: 2rem;
+    }
+}
+
+/* MAX WIDTH */
+@media screen and (max-width:540px) {
+    #header .navbar-collapse {
+        min-width: 68%;
+    }
+
+    #header .search-form {
+        width: 100%;
+        position: relative;
+        margin-bottom: 100%;
+    }
+
+    #header button.men-collection {
+        width: 178px;
+        margin-top: 33%;
+        padding: 9px 0;
+        letter-spacing: 0px;
+    }
+
+    /*   FASION AREA    */
+    #fasion ul.fasion-menu li a {
+        padding: 3rem 0;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info h6,
+    #fasion .fasion-images .left-side-images .images .text-info h6 {
+        margin: 1rem auto;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info p.price-info,
+    #fasion .fasion-images .left-side-images .images .text-info p.price-info {
+        margin: 1rem auto;
+    }
+
+    #fasion .fasion-images .right-side-images .images .text-info,
+    #fasion .fasion-images .left-side-images .images .text-info {
+        bottom: -96px;
+    }
+
+    #fasion .fasion-images .right-side-images .img1 .text-info,
+    #fasion .fasion-images .left-side-images .img3 .text-info {
+        bottom: -96px;
+    }
+}
